@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  background-color: #519872;
+  display: flex;
+  
+}
+.titleBox{
+  display: flex;
+  margin-left: 20vw;
+  
+  
+}
+
+.titleHouser{
+  color: white;
+}
+
+#dashboard{
+  font-size: 28px;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  color: white;
+}
+
+.logout{
+  margin-left: 30vw;
+  margin-top: 2.5vw;
+  font-size: 20px;
+  color: white;
+}
+
+.body{
+  background-color: #afd4c0;
+  height: 100vh;
+  width: 100vw;
+}
+.middleBody{
+  background-color: white;
+  height: 100vh;
+  width: 60vw;
+  margin-left: 20vw;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

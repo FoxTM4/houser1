@@ -1,0 +1,42 @@
+.App{
+    text-align: center;
+  
+}
+.header{
+    background-color: #519872;
+    display: flex;
+    height: 10vh;
+    
+  
+  .titleBox{
+    display: flex;
+    margin-left: 20vw;
+    
+    
+  }
+  
+  .titleHouser{
+    color: white;
+    margin-top: 6vh;
+  }
+  
+  #dashboard{
+    @include marginSize(6.5vh, 1vw, 28px);
+    color: white;
+  }
+  
+  .logout{
+    @include marginSize(4vh,39vw, 20px);
+    color: white;
+  }
+}
+ 
+.body{
+    background-color: #afd4c0;
+    @include heightWidth(100vh, 100vw);
+  }
+  .middleBody{
+    background-color: #c5eed9;
+    @include heightWidth(100vh, 60vw);
+    margin-left: 20vw;
+  }

@@ -1,0 +1,9 @@
+@mixin marginSize($top, $left, $size){
+    margin-top: $top;
+    margin-left: $left;
+    font-size: $size;
+};
+@mixin heightWidth($height, $width){
+    height: $height;
+    width: $width;
+}

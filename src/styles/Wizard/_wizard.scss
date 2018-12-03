@@ -1,0 +1,78 @@
+.wizard{
+    height: 100vh;
+
+.subHeader{
+    display: flex;
+    height: 10vh;
+    width: 60vw;
+}
+
+#subTitle{
+    width: 20vw;
+    font-size: 25px;
+    margin-top: 2vw;
+}
+
+.cancelBtn{
+    background-color: #fec2c2;
+    margin-left: 33vw;
+    margin-top: 3vh;
+    height: 3vh;
+    width: 5vw;
+    
+}
+
+img{
+    width: 60vw;
+}
+
+input{
+    width: 40vw;
+}
+.propNameT{
+    margin-right: 29vw;
+    font-size: 20px;
+}
+.descriptionInput{
+    height: 15vh;
+}
+.nextStepBtn{
+    margin-top: 5vh;
+    width: 9vw;
+    height: 4vh;
+    background-color: #3b5249;
+    color: white;
+
+}
+.previousStepBtn{
+    height: 4vh;
+    width: 9vw;
+    background-color: #3b5249;
+    color: white;
+}
+
+.completeBtn{
+    height: 4vh;
+    width: 9vw;
+    background-color: #8AEA92;
+    margin-top: 5vh;
+}
+
+.cityAddressIn{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.inputSmall{
+    width: 15vw;
+}
+
+.wizard1H{
+    font-size: 20px;
+    margin-right: 25vw;
+    
+}
+
+}

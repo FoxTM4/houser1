@@ -1,0 +1,64 @@
+.dashboard{
+
+
+.newBtnBox{
+    height: 8vh;
+    background-color: #c5eed9;
+}
+
+.addNewBtn{
+    height: 30px;
+    font-size: 20px;
+    margin-top: 2vh;
+    background-color: #8aea92;
+}
+
+.searchBox{
+    display: flex;
+    height: 7vh;
+    border-bottom: solid black 1px ;
+    
+}
+
+.inputLine{
+    margin-left: 2vw;
+}
+
+button{
+    margin-left: 2vw;
+    height: 2.5vh;
+}
+h2{
+    margin-right: 38vw;
+    font-size: 30px;
+}
+
+#theMap{
+    @include heightWidth(150px, 60vw);
+    background-color: rgb(223, 215, 215); 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+img{
+    @include heightWidth(150px,150px);
+}
+.imgBox{
+    background-color: gray;
+    @include heightWidth(150px,170px);
+}
+
+.nameDesBox{
+    width:29vw;
+}
+
+li{
+    margin-top: 2px;
+    margin-right: 1vw;
+}
+ul{
+    border-left: black solid 1px;
+    width: 20vw;
+}
+
+}
